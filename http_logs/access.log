@@ -1,0 +1,53 @@
+192.168.1.1 - - [19/Mar/2026:10:00:00 +0800] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.023
+192.168.1.2 - - [19/Mar/2026:10:00:01 +0800] "GET /api/users HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" 0.045
+192.168.1.3 - - [19/Mar/2026:10:00:02 +0800] "POST /api/login HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.156
+192.168.1.1 - - [19/Mar/2026:10:00:03 +0800] "GET /css/style.css HTTP/1.1" 200 3456 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.012
+192.168.1.4 - - [19/Mar/2026:10:00:04 +0800] "GET /js/app.js HTTP/1.1" 200 8192 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.034
+192.168.1.5 - - [19/Mar/2026:10:00:05 +0800] "GET /api/products HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)" 0.089
+192.168.1.6 - - [19/Mar/2026:10:00:06 +0800] "GET /images/logo.png HTTP/1.1" 200 16384 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.067
+192.168.1.2 - - [19/Mar/2026:10:00:07 +0800] "POST /api/cart/add HTTP/1.1" 200 256 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" 0.234
+192.168.1.7 - - [19/Mar/2026:10:00:08 +0800] "GET /about.html HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.023
+192.168.1.8 - - [19/Mar/2026:10:00:09 +0800] "GET /contact.html HTTP/1.1" 200 1536 "-" "Mozilla/5.0 (X11; Linux x86_64)" 0.018
+10.0.0.1 - - [19/Mar/2026:10:01:00 +0800] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0 (compatible; Bot/1.0)" 0.005
+10.0.0.1 - - [19/Mar/2026:10:01:01 +0800] "GET /api/users HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (compatible; Bot/1.0)" 0.004
+10.0.0.1 - - [19/Mar/2026:10:01:02 +0800] "GET /api/products HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (compatible; Bot/1.0)" 0.006
+10.0.0.1 - - [19/Mar/2026:10:01:03 +0800] "GET /about.html HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (compatible; Bot/1.0)" 0.003
+10.0.0.1 - - [19/Mar/2026:10:01:04 +0800] "GET /contact.html HTTP/1.1" 200 1536 "-" "Mozilla/5.0 (compatible; Bot/1.0)" 0.004
+10.0.0.1 - - [19/Mar/2026:10:01:05 +0800] "GET /api/orders HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (compatible; Bot/1.0)" 0.005
+10.0.0.1 - - [19/Mar/2026:10:01:06 +0800] "GET /api/cart HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (compatible; Bot/1.0)" 0.004
+10.0.0.1 - - [19/Mar/2026:10:01:07 +0800] "GET /api/search?q=test HTTP/1.1" 200 512 "-" "Mozilla/5.0 (compatible; Bot/1.0)" 0.008
+10.0.0.1 - - [19/Mar/2026:10:01:08 +0800] "GET /product/123 HTTP/1.1" 200 2560 "-" "Mozilla/5.0 (compatible; Bot/1.0)" 0.006
+10.0.0.1 - - [19/Mar/2026:10:01:09 +0800] "GET /product/456 HTTP/1.1" 200 2560 "-" "Mozilla/5.0 (compatible; Bot/1.0)" 0.005
+192.168.1.100 - - [19/Mar/2026:10:02:00 +0800] "GET /admin/login HTTP/1.1" 404 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.023
+192.168.1.100 - - [19/Mar/2026:10:02:01 +0800] "GET /admin/config HTTP/1.1" 403 256 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.018
+192.168.1.100 - - [19/Mar/2026:10:02:02 +0800] "GET /wp-admin HTTP/1.1" 404 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.021
+192.168.1.100 - - [19/Mar/2026:10:02:03 +0800] "POST /api/login HTTP/1.1" 401 128 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.345
+192.168.1.100 - - [19/Mar/2026:10:02:04 +0800] "POST /api/login HTTP/1.1" 401 128 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.298
+192.168.1.9 - - [19/Mar/2026:10:03:00 +0800] "GET /api/heavy-query HTTP/1.1" 200 10240 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 5.234
+192.168.1.10 - - [19/Mar/2026:10:03:01 +0800] "GET /api/report/generate HTTP/1.1" 200 51200 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" 8.567
+192.168.1.11 - - [19/Mar/2026:10:03:02 +0800] "POST /api/batch-process HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 12.345
+192.168.1.9 - - [19/Mar/2026:10:04:00 +0800] "GET /api/data/export HTTP/1.1" 500 256 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.456
+192.168.1.10 - - [19/Mar/2026:10:04:01 +0800] "GET /api/data/export HTTP/1.1" 500 256 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" 0.389
+192.168.1.11 - - [19/Mar/2026:10:04:02 +0800] "GET /api/data/export HTTP/1.1" 500 256 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.512
+192.168.1.12 - - [19/Mar/2026:10:04:03 +0800] "GET /api/data/export HTTP/1.1" 500 256 "-" "Mozilla/5.0 (X11; Linux x86_64)" 0.445
+192.168.1.13 - - [19/Mar/2026:10:04:04 +0800] "GET /api/data/export HTTP/1.1" 500 256 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.478
+192.168.1.1 - - [19/Mar/2026:10:05:00 +0800] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.025
+192.168.1.2 - - [19/Mar/2026:10:05:01 +0800] "GET /api/users HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" 0.042
+192.168.1.3 - - [19/Mar/2026:10:05:02 +0800] "GET /api/products HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.087
+192.168.1.4 - - [19/Mar/2026:10:05:03 +0800] "GET /js/app.js HTTP/1.1" 200 8192 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.031
+192.168.1.5 - - [19/Mar/2026:10:05:04 +0800] "GET /images/logo.png HTTP/1.1" 200 16384 "https://example.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)" 0.065
+192.168.1.6 - - [19/Mar/2026:10:05:05 +0800] "GET /css/style.css HTTP/1.1" 200 3456 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.014
+192.168.1.7 - - [19/Mar/2026:10:05:06 +0800] "GET /about.html HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.021
+192.168.1.8 - - [19/Mar/2026:10:05:07 +0800] "GET /contact.html HTTP/1.1" 200 1536 "-" "Mozilla/5.0 (X11; Linux x86_64)" 0.019
+192.168.1.1 - - [19/Mar/2026:10:05:08 +0800] "GET /product/123 HTTP/1.1" 200 2560 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.045
+192.168.1.2 - - [19/Mar/2026:10:05:09 +0800] "GET /product/456 HTTP/1.1" 200 2560 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" 0.038
+10.0.0.2 - - [19/Mar/2026:10:06:00 +0800] "GET /index.html HTTP/1.1" 200 1234 "-" "Mozilla/5.0 (compatible; Crawler/1.0)" 0.004
+10.0.0.2 - - [19/Mar/2026:10:06:01 +0800] "GET /api/users HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (compatible; Crawler/1.0)" 0.005
+10.0.0.2 - - [19/Mar/2026:10:06:02 +0800] "GET /api/products HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (compatible; Crawler/1.0)" 0.006
+10.0.0.2 - - [19/Mar/2026:10:06:03 +0800] "GET /about.html HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (compatible; Crawler/1.0)" 0.004
+10.0.0.2 - - [19/Mar/2026:10:06:04 +0800] "GET /contact.html HTTP/1.1" 200 1536 "-" "Mozilla/5.0 (compatible; Crawler/1.0)" 0.003
+10.0.0.2 - - [19/Mar/2026:10:06:05 +0800] "GET /api/orders HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (compatible; Crawler/1.0)" 0.005
+10.0.0.2 - - [19/Mar/2026:10:06:06 +0800] "GET /api/cart HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (compatible; Crawler/1.0)" 0.004
+10.0.0.2 - - [19/Mar/2026:10:06:07 +0800] "GET /api/search?q=python HTTP/1.1" 200 512 "-" "Mozilla/5.0 (compatible; Crawler/1.0)" 0.007
+10.0.0.2 - - [19/Mar/2026:10:06:08 +0800] "GET /product/789 HTTP/1.1" 200 2560 "-" "Mozilla/5.0 (compatible; Crawler/1.0)" 0.006
+10.0.0.2 - - [19/Mar/2026:10:06:09 +0800] "GET /product/abc HTTP/1.1" 200 2560 "-" "Mozilla/5.0 (compatible; Crawler/1.0)" 0.005
